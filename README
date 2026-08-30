@@ -1,0 +1,215 @@
+# Warehouse Management System
+
+## 📌 Project Overview
+
+The Warehouse Management System (WMS) is designed to modernize and optimize warehouse operations through automation, real-time inventory visibility, order processing, and data-driven management.
+
+The system aims to reduce manual work, minimize inventory errors, improve warehouse productivity, and support efficient receiving, storage, picking, packing, shipping, and reporting.
+
+## 🎯 Main Objectives
+
+* Automate warehouse operations
+* Maintain accurate inventory records
+* Track stock in real time
+* Improve warehouse space utilization
+* Reduce order processing time
+* Improve picking and shipping accuracy
+* Support analytics and reporting
+* Provide role-based system access
+
+## 🚀 Main Features
+
+### 1. Receiving Management
+
+* Record received goods
+* Barcode/RFID-based item scanning
+* Quantity and batch verification
+* Quality inspection
+* Storage location assignment
+
+### 2. Inventory Management
+
+* Real-time stock tracking
+* FIFO/LIFO support
+* Batch and expiry management
+* Stock adjustment
+* Cycle counting
+
+### 3. Storage & Location Management
+
+* Warehouse location management
+* Location mapping
+* Storage assignment
+* Capacity-based slotting
+
+### 4. Order Management
+
+* Create and modify orders
+* Order prioritization
+* Order status tracking
+* Order processing
+
+### 5. Picking
+
+* Automatic pick-list generation
+* Barcode confirmation
+* Picking instructions
+* Picking verification
+
+### 6. Packing & Shipping
+
+* Pick verification
+* Packing confirmation
+* Shipping label generation
+* Shipment tracking
+
+### 7. Returns Management
+
+* Return receiving
+* Return inspection
+* Return reason recording
+* Restocking/disposal processing
+
+### 8. Analytics & Reporting
+
+* Operational dashboard
+* Daily/weekly/monthly reports
+* KPI monitoring
+* Inventory analytics
+
+## 👥 User Roles
+
+* Admin
+* Warehouse Manager
+* Inventory Officer
+* Warehouse Staff
+* Quality Control Officer
+* Supply Chain Officer
+* Picker
+* Packing Staff
+* Dispatch Officer
+
+## 🛠️ Technologies Used
+
+* PHP
+* MySQL
+* HTML5
+* CSS3
+* JavaScript
+* Bootstrap
+* XAMPP
+* Git & GitHub
+
+## 📂 Project Structure
+
+```text
+warehouse-management-system/
+│
+├── src/
+├── database/
+├── docs/
+├── assets/
+├── tests/
+├── .gitignore
+└── README.md
+```
+
+## ⚙️ Installation & Setup
+
+### Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/YOUR-USERNAME/warehouse-management-system.git
+```
+
+### Step 2: Move the Project
+
+For XAMPP:
+
+```text
+C:/xampp/htdocs/
+```
+
+Copy the project folder into the `htdocs` directory.
+
+### Step 3: Start XAMPP
+
+Start:
+
+* Apache
+* MySQL
+
+### Step 4: Create Database
+
+Open phpMyAdmin and create:
+
+```text
+warehouse_db
+```
+
+### Step 5: Import Database
+
+Import:
+
+```text
+database/warehouse.sql
+```
+
+### Step 6: Configure Database Connection
+
+Update the database configuration file with:
+
+```text
+Host: localhost
+Database: warehouse_db
+Username: root
+Password:
+```
+
+### Step 7: Run the System
+
+Open:
+
+```text
+http://localhost/warehouse-management-system/
+```
+
+## 📑 Documentation
+
+The complete SRS documentation is available in:
+
+```text
+docs/SRS_Warehouse_Management_System.pdf
+```
+
+The documentation includes:
+
+* Stakeholder Analysis
+* User Stories
+* Project Charter
+* Work Breakdown Structure
+* Cost Estimation
+* Use Case Diagram
+* Activity Diagrams
+* Swimlane Diagrams
+* ER Diagram
+* Data Flow Diagrams
+* Class-Based Modeling
+* CRC Diagram
+* Sequence Diagram
+
+## 👨‍💻 Project Team
+
+* Abu Sufian — Software Engineer
+* Nabila Binti Hossain — System Analyst
+* M Sadman Hossain Bhuiyan — Quality Assurance
+* Mehjabin Alam Jeba — Supervisor
+* Sadia Zaman — Project Manager
+* Kowser Ahamed — Software Engineer
+
+## 📄 License
+
+This project was developed for academic purposes as part of the CSE34 Information System Analysis and Design course.
+
+```
+```
